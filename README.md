@@ -10,7 +10,7 @@ Also, We can follow three approaches to implement Dependency Injection:
  - XML Based Configuration DI approach
  - Automated Annotation DI approach
 
-# Implementation Structure Model:
+# Implementation Structure Model
  > Service: Engine -> Implements(Electrical Engine, Combustion Engine)
 
  > Consumer: vehicle -> Implements(car, bike, auto rickshaw)
