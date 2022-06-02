@@ -1,15 +1,11 @@
-/* Engine has a method called turnOn() which turns on the vehicle. There are two types of engine. 1. Combustion Engine and 2. Electrical Engine
-
-   All the Vehicles have engines. There are 3 types of Vehicle. 1. Car, 2. Bike, 3. AutoRickshaw
-   Vehicles have threw methods which is
-   1. getVehicleName()
-   2. getEngineType()
-   3. startTheEngine which will trigger turnOn() method of the Engine.
-
-   Create a Spring Application that uses both constructor and setter based DI using 
-   a. XML based configuration
-   b. Java based configuration.
-   c. @Autowired annotation */
+/* 
+ * @groupId      com.vehicle
+ * @artifactId   Spring-Dependency-Injection
+ * @author       FzArnob
+ * @copyright    2022 FzArnob
+ * @license      MIT License
+ * @version      0.0.1
+*/
 
 package com.vehicle.app;
 
@@ -22,12 +18,12 @@ import com.vehicle.categories.autoRickshaw;
 import com.vehicle.categories.bike;
 import com.vehicle.categories.car;
 import com.vehicle.categories.vehicle;
-import com.vehicle.config.DIConfigeration;
+import com.vehicle.config.DIConfiguration;
 
 
 public class runVehicle {
 	public static void main(String[] args) {
-		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(DIConfigeration.class);
+		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(DIConfiguration.class);
 		System.out.println("BASIC JAVA Annotation Dependency Injection");
 		vehicle electricCar = context.getBean(car.class);
 		electricCar.setVehicleName("Tesla Model X");

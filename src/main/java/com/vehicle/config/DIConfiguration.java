@@ -14,7 +14,7 @@ import com.vehicle.engines.Engine;
 
 @Configuration
 @ComponentScan(value={"com.vehicle.categories"})
-public class DIConfigeration {
+public class DIConfiguration {
 	@Bean(name = "electricalEngine")
 	@Primary
     public Engine getElectricalEngine() {
