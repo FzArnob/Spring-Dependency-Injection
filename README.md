@@ -21,6 +21,12 @@ Also, We can follow three approaches to implement Dependency Injection:
  > XML Configuration: applicationContext.xml
 
 
-# How to import:
- 
-``git clone https://github.com/chryswoods/versioned_dir.git``
+# How To:
+- clone repository to IDE workspace (Ex. Eclipse)
+``git clone https://github.com/FzArnob/Spring-Dependency-Injection.git``
+- for Eclipse: Import as a maven project
+``Eclipse > File > Import > Maven > Existing Maven Projects > Browse repository path in workspace > Finish``
+- install project dependencies
+``Project > Run as > Maven install``
+- run project
+- ``Project > Run as > Java Application``
