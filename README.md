@@ -29,4 +29,4 @@ Also, We can follow three approaches to implement Dependency Injection:
 - install project dependencies
 ``Project > Run as > Maven install``
 - run project
-- ``Project > Run as > Java Application``
+``Project > Run as > Java Application``
