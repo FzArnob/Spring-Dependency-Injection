@@ -10,7 +10,7 @@ Also, We can follow three approaches to implement Dependency Injection:
  - Automated Annotation DI approach
 
 # All of these approaches are implemented with the following models:
- > Service: Engine -> Implements(Electrical Engine, Combustion Engine)
+ < Service: Engine -> Implements(Electrical Engine, Combustion Engine) >
  > Consumer: vehicle -> Implements(car, bike, auto rickshaw)
  > Client: runVehicle class
  > Configuration: DIConfiguration class
