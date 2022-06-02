@@ -31,3 +31,5 @@ Also, We can follow three approaches to implement Dependency Injection:
 ``Project > Run as > Maven install``
 - run project
 ``Project > Run as > Java Application``
+# Output
+![Output](https://github.com/FzArnob/Spring-Dependency-Injection/blob/main/src/test/java/output.png?raw=true)
