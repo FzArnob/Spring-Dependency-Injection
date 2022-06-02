@@ -1,5 +1,6 @@
-# Spring-Dependency-Injection
- 
+# ``Spring-Dependency-Injection``
+
+# About
 The core of the Spring Framework is based on the principle of Inversion of Control (IoC) (Dependency Injection). Applications that follow the IoC principle use configuration that describes the dependencies between its components.
 There two type of Dependency Injection in Spring:
  - Constructor DI
@@ -9,7 +10,7 @@ Also, We can follow three approaches to implement Dependency Injection:
  - XML Based Configuration DI approach
  - Automated Annotation DI approach
 
-# All of these approaches are implemented with the following models:
+# Implementation Structure Model
  > Service: Engine -> Implements(Electrical Engine, Combustion Engine)
 
  > Consumer: vehicle -> Implements(car, bike, auto rickshaw)
@@ -21,7 +22,7 @@ Also, We can follow three approaches to implement Dependency Injection:
  > XML Configuration: applicationContext.xml
 
 
-# How To:
+# Getting Started
 - clone repository to IDE workspace (Ex. Eclipse)
 ``git clone https://github.com/FzArnob/Spring-Dependency-Injection.git``
 - for Eclipse: Import as a maven project
